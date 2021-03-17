@@ -8,3 +8,13 @@ body{
     font-family: 'Montserrat',
     sans-serif;
 }
+
+/* conatiners */
+.container{
+    padding: 0 1rem 0 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
