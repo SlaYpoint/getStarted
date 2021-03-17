@@ -110,3 +110,20 @@ hr{
 .section-ow{
     background : var(--offwhite);
 }
+
+/* footer */
+footer{
+    background: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1.5rem;
+}
+
+footer .link{
+    color: white;
+}
+
+footer ul{
+    padding-inline-start: 0;
+}
