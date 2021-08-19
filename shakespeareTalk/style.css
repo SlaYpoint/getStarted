@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
 :root{
     --primary-color : #3730A3;
@@ -8,8 +7,7 @@
 
 body{
     margin: 0;
-    font-family: 'Montserrat',
-    sans-serif;
+    font-family: 'Special Elite', cursive;
     text-align: center;
 }
 
@@ -22,6 +20,10 @@ header{
     padding: 0.25rem;
     border-bottom-left-radius: 0.5rem;
     color: #ffff;
+}
+
+#hero-img{
+    width: 2.5rem;
 }
 /* functional components */
 .content{
@@ -41,6 +43,7 @@ textarea{
 
 #output{
     border: 1px solid black;
+    padding: 1rem 0.5rem;
 }
 
 .centered{
@@ -56,7 +59,9 @@ textarea{
     );
     border: transparent;
     padding: 1rem 2rem;
+    font-family: inherit;
     font-size: medium;
+    font-weight: 600;
     cursor: pointer;
     border-radius: 2rem;
     color: #ffff;
